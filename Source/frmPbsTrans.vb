@@ -73,11 +73,13 @@
 '04/03/20   jpg     Now running on Win10 Pro VB19. No changes made to code apart from a Cystal Report property!
 '13/03/20   jpg     Changed VPBS Settings to use Local DB (C:\VPBS\) instead of |Data Directory|\DB
 '13/03/20   jpg     RefreshDetails - Need Movelast after being called from frmBankRec
-'
-'
+'11/08/20   jpg     If Archive DB selected switch off Rec menu items as not needed 
+'                   (also problem accessing RecData table - may not be in Archive DB!)
+
 'Builds
 '
 '02/01/17   jpg     Build and Publish v13.0.0.10
+'12/08/20   jpg     Build and Publish v19.0.0.05
 '****************************************************************************************************************************
 Public Class frmPbsTrans
 
@@ -138,6 +140,12 @@ Public Class frmPbsTrans
             AnalysisBindingSource.DataSource = VpbsArchiveDataSet
             GLCodeBindingSource.DataSource = VpbsArchiveDataSet
             CustomersBindingSource.DataSource = VpbsArchiveDataSet
+
+            'switch off Rec menu items for Archive DB 11/08/20
+            ImportBankStatementToolStripMenuItem.Visible = False
+            ReconciliationToolStripMenuItem.Visible = False
+            ReconciliationToolStripMenuItem1.Visible = False
+            ReconciiationStatementToolStripMenuItem.Visible = False
 
         Else 'Test
 

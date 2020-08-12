@@ -532,7 +532,7 @@ ERR_GetUserInfo:
         On Error Resume Next
 
         'bok = Shell("C:\Program Files (x86)\Microsoft Office\Office14\Excel.exe C:\Vpbs\Finances2017.xls", 1)
-        bok = Shell("C:\Program Files\LibreOffice\program\soffice.exe C:\Vpbs\Finances2020.xls", 1)
+        bok = Shell("C:\Program Files\LibreOffice\program\soffice.exe C:\Vpbs\Finances.xls", 1)
 
     End Sub
 

@@ -253,13 +253,13 @@ Partial Class frmStartUp
         '
         Me.ToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchiveDataToolStripMenuItem, Me.LiveDataToolStripMenuItem, Me.TestDataToolStripMenuItem})
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(156, 22)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
         Me.ToolStripMenuItem2.Text = "&Select DataBase"
         '
         'ArchiveDataToolStripMenuItem
         '
         Me.ArchiveDataToolStripMenuItem.Name = "ArchiveDataToolStripMenuItem"
-        Me.ArchiveDataToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.ArchiveDataToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ArchiveDataToolStripMenuItem.Text = "&Archive Data"
         '
         'LiveDataToolStripMenuItem
@@ -267,25 +267,26 @@ Partial Class frmStartUp
         Me.LiveDataToolStripMenuItem.Checked = True
         Me.LiveDataToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.LiveDataToolStripMenuItem.Name = "LiveDataToolStripMenuItem"
-        Me.LiveDataToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.LiveDataToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LiveDataToolStripMenuItem.Text = "&Live Data"
         '
         'TestDataToolStripMenuItem
         '
         Me.TestDataToolStripMenuItem.Name = "TestDataToolStripMenuItem"
-        Me.TestDataToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.TestDataToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TestDataToolStripMenuItem.Text = "&Test Data"
+        Me.TestDataToolStripMenuItem.Visible = False
         '
         'PrinterSetupToolStripMenuItem
         '
         Me.PrinterSetupToolStripMenuItem.Name = "PrinterSetupToolStripMenuItem"
-        Me.PrinterSetupToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
+        Me.PrinterSetupToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PrinterSetupToolStripMenuItem.Text = "&Printer Setup"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ExitToolStripMenuItem.Text = "&Exit"
         '
         'AboutToolStripMenuItem

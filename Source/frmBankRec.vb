@@ -45,6 +45,7 @@ Public Class frmBankRec
 
     Private Sub frmBankRec_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+
         If gsDBName = "Live" Then
 
             gsVpbsConnection = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\VPBS\VPBS.MDB"

@@ -23,20 +23,20 @@ Partial Class frmPbsTrans
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle36 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle37 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmPbsTrans))
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.DataGridDirPbs = New System.Windows.Forms.DataGridView()
         Me.AccountNoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.AccountNameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -187,6 +187,25 @@ Partial Class frmPbsTrans
         Me.AboutVisualPBSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DirectoryEntry1 = New System.DirectoryServices.DirectoryEntry()
         Me.DataGridPbsTrans = New System.Windows.Forms.DataGridView()
+        Me.DateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ReferenceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CustomerDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DetailsDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PaymentDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ReceiptDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.BalanceDataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AnalysisDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AccountDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.GlcodeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.FolioDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ReconciledDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.VATDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AmountDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DebitCreditDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TimeKeyDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AccountNoDataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TransferDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TransferIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PbstransBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -224,25 +243,6 @@ Partial Class frmPbsTrans
         Me.PrintDialog2 = New System.Windows.Forms.PrintDialog()
         Me.PrintPreviewDialog1 = New System.Windows.Forms.PrintPreviewDialog()
         Me.AxCrystalReport1 = New AxCrystal.AxCrystalReport()
-        Me.DateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ReferenceDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.CustomerDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DetailsDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.PaymentDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ReceiptDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.BalanceDataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AnalysisDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AccountDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.GlcodeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FolioDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ReconciledDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.VATDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AmountDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DebitCreditDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TimeKeyDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AccountNoDataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TransferDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TransferIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridDirPbs, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DirpbsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.VPBSDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -273,32 +273,32 @@ Partial Class frmPbsTrans
         Me.DataGridDirPbs.AllowUserToDeleteRows = False
         Me.DataGridDirPbs.AllowUserToOrderColumns = True
         Me.DataGridDirPbs.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.DataGridDirPbs.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle27.BackColor = System.Drawing.Color.White
+        Me.DataGridDirPbs.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle27
         Me.DataGridDirPbs.AutoGenerateColumns = False
         Me.DataGridDirPbs.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells
         Me.DataGridDirPbs.BackgroundColor = System.Drawing.Color.White
         Me.DataGridDirPbs.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridDirPbs.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridDirPbs.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridDirPbs.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle28
         Me.DataGridDirPbs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.DataGridDirPbs.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.AccountNoDataGridViewTextBoxColumn, Me.AccountNameDataGridViewTextBoxColumn, Me.AccountDescDataGridViewTextBoxColumn, Me.BankNameDataGridViewTextBoxColumn, Me.BalanceDataGridViewTextBoxColumn, Me.CurrencyDataGridViewTextBoxColumn, Me.BalanceDateDataGridViewTextBoxColumn, Me.BankBranchDataGridViewTextBoxColumn, Me.BankCodeDataGridViewTextBoxColumn, Me.BalanceEquivalentDataGridViewTextBoxColumn, Me.OdLimitDataGridViewTextBoxColumn, Me.UserNameDataGridViewTextBoxColumn, Me.BudgetNoDataGridViewTextBoxColumn1, Me.BalanceStatusDataGridViewTextBoxColumn})
         Me.DataGridDirPbs.DataSource = Me.DirpbsBindingSource
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Silver
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridDirPbs.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle32.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle32.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.Silver
+        DataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridDirPbs.DefaultCellStyle = DataGridViewCellStyle32
         Me.DataGridDirPbs.GridColor = System.Drawing.Color.White
         Me.DataGridDirPbs.Location = New System.Drawing.Point(13, 62)
         Me.DataGridDirPbs.MultiSelect = False
@@ -343,10 +343,10 @@ Partial Class frmPbsTrans
         'BalanceDataGridViewTextBoxColumn
         '
         Me.BalanceDataGridViewTextBoxColumn.DataPropertyName = "Balance"
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle3.Format = "N2"
-        DataGridViewCellStyle3.NullValue = Nothing
-        Me.BalanceDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle29.Format = "N2"
+        DataGridViewCellStyle29.NullValue = Nothing
+        Me.BalanceDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle29
         Me.BalanceDataGridViewTextBoxColumn.HeaderText = "Balance"
         Me.BalanceDataGridViewTextBoxColumn.Name = "BalanceDataGridViewTextBoxColumn"
         Me.BalanceDataGridViewTextBoxColumn.ReadOnly = True
@@ -387,8 +387,8 @@ Partial Class frmPbsTrans
         'BalanceEquivalentDataGridViewTextBoxColumn
         '
         Me.BalanceEquivalentDataGridViewTextBoxColumn.DataPropertyName = "BalanceEquivalent"
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.BalanceEquivalentDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.BalanceEquivalentDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle30
         Me.BalanceEquivalentDataGridViewTextBoxColumn.HeaderText = "BalanceEquivalent"
         Me.BalanceEquivalentDataGridViewTextBoxColumn.Name = "BalanceEquivalentDataGridViewTextBoxColumn"
         Me.BalanceEquivalentDataGridViewTextBoxColumn.ReadOnly = True
@@ -397,8 +397,8 @@ Partial Class frmPbsTrans
         'OdLimitDataGridViewTextBoxColumn
         '
         Me.OdLimitDataGridViewTextBoxColumn.DataPropertyName = "odLimit"
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.OdLimitDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.OdLimitDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle31
         Me.OdLimitDataGridViewTextBoxColumn.HeaderText = "odLimit"
         Me.OdLimitDataGridViewTextBoxColumn.Name = "OdLimitDataGridViewTextBoxColumn"
         Me.OdLimitDataGridViewTextBoxColumn.ReadOnly = True
@@ -1156,6 +1156,7 @@ Partial Class frmPbsTrans
         Me.ImportBankStatementDevToolStripMenuItem.Name = "ImportBankStatementDevToolStripMenuItem"
         Me.ImportBankStatementDevToolStripMenuItem.Size = New System.Drawing.Size(245, 22)
         Me.ImportBankStatementDevToolStripMenuItem.Text = "Import Bank Statement - Dev"
+        Me.ImportBankStatementDevToolStripMenuItem.Visible = False
         '
         'PrinterSetupToolStripMenuItem
         '
@@ -1521,26 +1522,26 @@ Partial Class frmPbsTrans
         Me.DataGridPbsTrans.BackgroundColor = System.Drawing.Color.White
         Me.DataGridPbsTrans.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridPbsTrans.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle7.NullValue = Nothing
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridPbsTrans.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle33.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle33.NullValue = Nothing
+        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridPbsTrans.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle33
         Me.DataGridPbsTrans.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.DataGridPbsTrans.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DateDataGridViewTextBoxColumn, Me.ReferenceDataGridViewTextBoxColumn, Me.CustomerDataGridViewTextBoxColumn, Me.DetailsDataGridViewTextBoxColumn, Me.PaymentDataGridViewTextBoxColumn, Me.ReceiptDataGridViewTextBoxColumn, Me.BalanceDataGridViewTextBoxColumn1, Me.AnalysisDataGridViewTextBoxColumn, Me.AccountDataGridViewTextBoxColumn, Me.GlcodeDataGridViewTextBoxColumn, Me.FolioDataGridViewTextBoxColumn, Me.ReconciledDataGridViewTextBoxColumn, Me.VATDataGridViewTextBoxColumn, Me.AmountDataGridViewTextBoxColumn, Me.DebitCreditDataGridViewTextBoxColumn, Me.TimeKeyDataGridViewTextBoxColumn, Me.AccountNoDataGridViewTextBoxColumn1, Me.TransferDataGridViewTextBoxColumn, Me.TransferIDDataGridViewTextBoxColumn})
         Me.DataGridPbsTrans.DataSource = Me.PbstransBindingSource
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle13.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Silver
-        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridPbsTrans.DefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle39.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.Silver
+        DataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridPbsTrans.DefaultCellStyle = DataGridViewCellStyle39
         Me.DataGridPbsTrans.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridPbsTrans.Location = New System.Drawing.Point(12, 65)
         Me.DataGridPbsTrans.MultiSelect = False
@@ -1549,6 +1550,168 @@ Partial Class frmPbsTrans
         Me.DataGridPbsTrans.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridPbsTrans.Size = New System.Drawing.Size(781, 264)
         Me.DataGridPbsTrans.TabIndex = 13
+        '
+        'DateDataGridViewTextBoxColumn
+        '
+        Me.DateDataGridViewTextBoxColumn.DataPropertyName = "Date"
+        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle34.Format = "dd-MMM-yy"
+        DataGridViewCellStyle34.NullValue = Nothing
+        Me.DateDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle34
+        Me.DateDataGridViewTextBoxColumn.HeaderText = "Date"
+        Me.DateDataGridViewTextBoxColumn.Name = "DateDataGridViewTextBoxColumn"
+        Me.DateDataGridViewTextBoxColumn.ReadOnly = True
+        Me.DateDataGridViewTextBoxColumn.Width = 80
+        '
+        'ReferenceDataGridViewTextBoxColumn
+        '
+        Me.ReferenceDataGridViewTextBoxColumn.DataPropertyName = "Reference"
+        Me.ReferenceDataGridViewTextBoxColumn.HeaderText = "Reference"
+        Me.ReferenceDataGridViewTextBoxColumn.Name = "ReferenceDataGridViewTextBoxColumn"
+        Me.ReferenceDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'CustomerDataGridViewTextBoxColumn
+        '
+        Me.CustomerDataGridViewTextBoxColumn.DataPropertyName = "Customer"
+        Me.CustomerDataGridViewTextBoxColumn.HeaderText = "Customer"
+        Me.CustomerDataGridViewTextBoxColumn.Name = "CustomerDataGridViewTextBoxColumn"
+        Me.CustomerDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'DetailsDataGridViewTextBoxColumn
+        '
+        Me.DetailsDataGridViewTextBoxColumn.DataPropertyName = "Details"
+        Me.DetailsDataGridViewTextBoxColumn.HeaderText = "Details"
+        Me.DetailsDataGridViewTextBoxColumn.Name = "DetailsDataGridViewTextBoxColumn"
+        Me.DetailsDataGridViewTextBoxColumn.ReadOnly = True
+        Me.DetailsDataGridViewTextBoxColumn.Width = 140
+        '
+        'PaymentDataGridViewTextBoxColumn
+        '
+        Me.PaymentDataGridViewTextBoxColumn.DataPropertyName = "Payment"
+        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle35.Format = "N2"
+        DataGridViewCellStyle35.NullValue = Nothing
+        Me.PaymentDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle35
+        Me.PaymentDataGridViewTextBoxColumn.HeaderText = "Payment"
+        Me.PaymentDataGridViewTextBoxColumn.Name = "PaymentDataGridViewTextBoxColumn"
+        Me.PaymentDataGridViewTextBoxColumn.ReadOnly = True
+        Me.PaymentDataGridViewTextBoxColumn.Width = 80
+        '
+        'ReceiptDataGridViewTextBoxColumn
+        '
+        Me.ReceiptDataGridViewTextBoxColumn.DataPropertyName = "Receipt"
+        DataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle36.Format = "N2"
+        DataGridViewCellStyle36.NullValue = Nothing
+        Me.ReceiptDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle36
+        Me.ReceiptDataGridViewTextBoxColumn.HeaderText = "Receipt"
+        Me.ReceiptDataGridViewTextBoxColumn.Name = "ReceiptDataGridViewTextBoxColumn"
+        Me.ReceiptDataGridViewTextBoxColumn.ReadOnly = True
+        Me.ReceiptDataGridViewTextBoxColumn.Width = 80
+        '
+        'BalanceDataGridViewTextBoxColumn1
+        '
+        Me.BalanceDataGridViewTextBoxColumn1.DataPropertyName = "Balance"
+        DataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle37.Format = "N2"
+        DataGridViewCellStyle37.NullValue = Nothing
+        Me.BalanceDataGridViewTextBoxColumn1.DefaultCellStyle = DataGridViewCellStyle37
+        Me.BalanceDataGridViewTextBoxColumn1.HeaderText = "Balance"
+        Me.BalanceDataGridViewTextBoxColumn1.Name = "BalanceDataGridViewTextBoxColumn1"
+        Me.BalanceDataGridViewTextBoxColumn1.ReadOnly = True
+        Me.BalanceDataGridViewTextBoxColumn1.Width = 80
+        '
+        'AnalysisDataGridViewTextBoxColumn
+        '
+        Me.AnalysisDataGridViewTextBoxColumn.DataPropertyName = "Analysis"
+        Me.AnalysisDataGridViewTextBoxColumn.HeaderText = "Analysis"
+        Me.AnalysisDataGridViewTextBoxColumn.Name = "AnalysisDataGridViewTextBoxColumn"
+        Me.AnalysisDataGridViewTextBoxColumn.ReadOnly = True
+        Me.AnalysisDataGridViewTextBoxColumn.Width = 80
+        '
+        'AccountDataGridViewTextBoxColumn
+        '
+        Me.AccountDataGridViewTextBoxColumn.DataPropertyName = "Account"
+        Me.AccountDataGridViewTextBoxColumn.HeaderText = "Account"
+        Me.AccountDataGridViewTextBoxColumn.Name = "AccountDataGridViewTextBoxColumn"
+        Me.AccountDataGridViewTextBoxColumn.ReadOnly = True
+        Me.AccountDataGridViewTextBoxColumn.Visible = False
+        '
+        'GlcodeDataGridViewTextBoxColumn
+        '
+        Me.GlcodeDataGridViewTextBoxColumn.DataPropertyName = "Glcode"
+        Me.GlcodeDataGridViewTextBoxColumn.HeaderText = "Glcode"
+        Me.GlcodeDataGridViewTextBoxColumn.Name = "GlcodeDataGridViewTextBoxColumn"
+        Me.GlcodeDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'FolioDataGridViewTextBoxColumn
+        '
+        Me.FolioDataGridViewTextBoxColumn.DataPropertyName = "Folio"
+        Me.FolioDataGridViewTextBoxColumn.HeaderText = "Folio"
+        Me.FolioDataGridViewTextBoxColumn.Name = "FolioDataGridViewTextBoxColumn"
+        Me.FolioDataGridViewTextBoxColumn.ReadOnly = True
+        Me.FolioDataGridViewTextBoxColumn.Visible = False
+        '
+        'ReconciledDataGridViewTextBoxColumn
+        '
+        Me.ReconciledDataGridViewTextBoxColumn.DataPropertyName = "Reconciled"
+        Me.ReconciledDataGridViewTextBoxColumn.HeaderText = "Reconciled"
+        Me.ReconciledDataGridViewTextBoxColumn.Name = "ReconciledDataGridViewTextBoxColumn"
+        Me.ReconciledDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'VATDataGridViewTextBoxColumn
+        '
+        Me.VATDataGridViewTextBoxColumn.DataPropertyName = "VAT"
+        Me.VATDataGridViewTextBoxColumn.HeaderText = "Equiv."
+        Me.VATDataGridViewTextBoxColumn.Name = "VATDataGridViewTextBoxColumn"
+        Me.VATDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'AmountDataGridViewTextBoxColumn
+        '
+        Me.AmountDataGridViewTextBoxColumn.DataPropertyName = "Amount"
+        Me.AmountDataGridViewTextBoxColumn.HeaderText = "Amount"
+        Me.AmountDataGridViewTextBoxColumn.Name = "AmountDataGridViewTextBoxColumn"
+        Me.AmountDataGridViewTextBoxColumn.ReadOnly = True
+        Me.AmountDataGridViewTextBoxColumn.Visible = False
+        '
+        'DebitCreditDataGridViewTextBoxColumn
+        '
+        Me.DebitCreditDataGridViewTextBoxColumn.DataPropertyName = "DebitCredit"
+        Me.DebitCreditDataGridViewTextBoxColumn.HeaderText = "DebitCredit"
+        Me.DebitCreditDataGridViewTextBoxColumn.Name = "DebitCreditDataGridViewTextBoxColumn"
+        Me.DebitCreditDataGridViewTextBoxColumn.ReadOnly = True
+        Me.DebitCreditDataGridViewTextBoxColumn.Visible = False
+        '
+        'TimeKeyDataGridViewTextBoxColumn
+        '
+        Me.TimeKeyDataGridViewTextBoxColumn.DataPropertyName = "TimeKey"
+        DataGridViewCellStyle38.Format = "T"
+        DataGridViewCellStyle38.NullValue = Nothing
+        Me.TimeKeyDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle38
+        Me.TimeKeyDataGridViewTextBoxColumn.HeaderText = "TimeKey"
+        Me.TimeKeyDataGridViewTextBoxColumn.Name = "TimeKeyDataGridViewTextBoxColumn"
+        Me.TimeKeyDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'AccountNoDataGridViewTextBoxColumn1
+        '
+        Me.AccountNoDataGridViewTextBoxColumn1.DataPropertyName = "AccountNo"
+        Me.AccountNoDataGridViewTextBoxColumn1.HeaderText = "AccountNo"
+        Me.AccountNoDataGridViewTextBoxColumn1.Name = "AccountNoDataGridViewTextBoxColumn1"
+        Me.AccountNoDataGridViewTextBoxColumn1.ReadOnly = True
+        '
+        'TransferDataGridViewTextBoxColumn
+        '
+        Me.TransferDataGridViewTextBoxColumn.DataPropertyName = "Transfer"
+        Me.TransferDataGridViewTextBoxColumn.HeaderText = "Transfer"
+        Me.TransferDataGridViewTextBoxColumn.Name = "TransferDataGridViewTextBoxColumn"
+        Me.TransferDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'TransferIDDataGridViewTextBoxColumn
+        '
+        Me.TransferIDDataGridViewTextBoxColumn.DataPropertyName = "TransferID"
+        Me.TransferIDDataGridViewTextBoxColumn.HeaderText = "TransferID"
+        Me.TransferIDDataGridViewTextBoxColumn.Name = "TransferIDDataGridViewTextBoxColumn"
+        Me.TransferIDDataGridViewTextBoxColumn.ReadOnly = True
         '
         'PbstransBindingSource
         '
@@ -1823,168 +1986,6 @@ Partial Class frmPbsTrans
         Me.AxCrystalReport1.OcxState = CType(resources.GetObject("AxCrystalReport1.OcxState"), System.Windows.Forms.AxHost.State)
         Me.AxCrystalReport1.Size = New System.Drawing.Size(28, 28)
         Me.AxCrystalReport1.TabIndex = 19
-        '
-        'DateDataGridViewTextBoxColumn
-        '
-        Me.DateDataGridViewTextBoxColumn.DataPropertyName = "Date"
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.Format = "dd-MMM-yy"
-        DataGridViewCellStyle8.NullValue = Nothing
-        Me.DateDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle8
-        Me.DateDataGridViewTextBoxColumn.HeaderText = "Date"
-        Me.DateDataGridViewTextBoxColumn.Name = "DateDataGridViewTextBoxColumn"
-        Me.DateDataGridViewTextBoxColumn.ReadOnly = True
-        Me.DateDataGridViewTextBoxColumn.Width = 80
-        '
-        'ReferenceDataGridViewTextBoxColumn
-        '
-        Me.ReferenceDataGridViewTextBoxColumn.DataPropertyName = "Reference"
-        Me.ReferenceDataGridViewTextBoxColumn.HeaderText = "Reference"
-        Me.ReferenceDataGridViewTextBoxColumn.Name = "ReferenceDataGridViewTextBoxColumn"
-        Me.ReferenceDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'CustomerDataGridViewTextBoxColumn
-        '
-        Me.CustomerDataGridViewTextBoxColumn.DataPropertyName = "Customer"
-        Me.CustomerDataGridViewTextBoxColumn.HeaderText = "Customer"
-        Me.CustomerDataGridViewTextBoxColumn.Name = "CustomerDataGridViewTextBoxColumn"
-        Me.CustomerDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'DetailsDataGridViewTextBoxColumn
-        '
-        Me.DetailsDataGridViewTextBoxColumn.DataPropertyName = "Details"
-        Me.DetailsDataGridViewTextBoxColumn.HeaderText = "Details"
-        Me.DetailsDataGridViewTextBoxColumn.Name = "DetailsDataGridViewTextBoxColumn"
-        Me.DetailsDataGridViewTextBoxColumn.ReadOnly = True
-        Me.DetailsDataGridViewTextBoxColumn.Width = 140
-        '
-        'PaymentDataGridViewTextBoxColumn
-        '
-        Me.PaymentDataGridViewTextBoxColumn.DataPropertyName = "Payment"
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle9.Format = "N2"
-        DataGridViewCellStyle9.NullValue = Nothing
-        Me.PaymentDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle9
-        Me.PaymentDataGridViewTextBoxColumn.HeaderText = "Payment"
-        Me.PaymentDataGridViewTextBoxColumn.Name = "PaymentDataGridViewTextBoxColumn"
-        Me.PaymentDataGridViewTextBoxColumn.ReadOnly = True
-        Me.PaymentDataGridViewTextBoxColumn.Width = 80
-        '
-        'ReceiptDataGridViewTextBoxColumn
-        '
-        Me.ReceiptDataGridViewTextBoxColumn.DataPropertyName = "Receipt"
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle10.Format = "N2"
-        DataGridViewCellStyle10.NullValue = Nothing
-        Me.ReceiptDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle10
-        Me.ReceiptDataGridViewTextBoxColumn.HeaderText = "Receipt"
-        Me.ReceiptDataGridViewTextBoxColumn.Name = "ReceiptDataGridViewTextBoxColumn"
-        Me.ReceiptDataGridViewTextBoxColumn.ReadOnly = True
-        Me.ReceiptDataGridViewTextBoxColumn.Width = 80
-        '
-        'BalanceDataGridViewTextBoxColumn1
-        '
-        Me.BalanceDataGridViewTextBoxColumn1.DataPropertyName = "Balance"
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle11.Format = "N2"
-        DataGridViewCellStyle11.NullValue = Nothing
-        Me.BalanceDataGridViewTextBoxColumn1.DefaultCellStyle = DataGridViewCellStyle11
-        Me.BalanceDataGridViewTextBoxColumn1.HeaderText = "Balance"
-        Me.BalanceDataGridViewTextBoxColumn1.Name = "BalanceDataGridViewTextBoxColumn1"
-        Me.BalanceDataGridViewTextBoxColumn1.ReadOnly = True
-        Me.BalanceDataGridViewTextBoxColumn1.Width = 80
-        '
-        'AnalysisDataGridViewTextBoxColumn
-        '
-        Me.AnalysisDataGridViewTextBoxColumn.DataPropertyName = "Analysis"
-        Me.AnalysisDataGridViewTextBoxColumn.HeaderText = "Analysis"
-        Me.AnalysisDataGridViewTextBoxColumn.Name = "AnalysisDataGridViewTextBoxColumn"
-        Me.AnalysisDataGridViewTextBoxColumn.ReadOnly = True
-        Me.AnalysisDataGridViewTextBoxColumn.Width = 80
-        '
-        'AccountDataGridViewTextBoxColumn
-        '
-        Me.AccountDataGridViewTextBoxColumn.DataPropertyName = "Account"
-        Me.AccountDataGridViewTextBoxColumn.HeaderText = "Account"
-        Me.AccountDataGridViewTextBoxColumn.Name = "AccountDataGridViewTextBoxColumn"
-        Me.AccountDataGridViewTextBoxColumn.ReadOnly = True
-        Me.AccountDataGridViewTextBoxColumn.Visible = False
-        '
-        'GlcodeDataGridViewTextBoxColumn
-        '
-        Me.GlcodeDataGridViewTextBoxColumn.DataPropertyName = "Glcode"
-        Me.GlcodeDataGridViewTextBoxColumn.HeaderText = "Glcode"
-        Me.GlcodeDataGridViewTextBoxColumn.Name = "GlcodeDataGridViewTextBoxColumn"
-        Me.GlcodeDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'FolioDataGridViewTextBoxColumn
-        '
-        Me.FolioDataGridViewTextBoxColumn.DataPropertyName = "Folio"
-        Me.FolioDataGridViewTextBoxColumn.HeaderText = "Folio"
-        Me.FolioDataGridViewTextBoxColumn.Name = "FolioDataGridViewTextBoxColumn"
-        Me.FolioDataGridViewTextBoxColumn.ReadOnly = True
-        Me.FolioDataGridViewTextBoxColumn.Visible = False
-        '
-        'ReconciledDataGridViewTextBoxColumn
-        '
-        Me.ReconciledDataGridViewTextBoxColumn.DataPropertyName = "Reconciled"
-        Me.ReconciledDataGridViewTextBoxColumn.HeaderText = "Reconciled"
-        Me.ReconciledDataGridViewTextBoxColumn.Name = "ReconciledDataGridViewTextBoxColumn"
-        Me.ReconciledDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'VATDataGridViewTextBoxColumn
-        '
-        Me.VATDataGridViewTextBoxColumn.DataPropertyName = "VAT"
-        Me.VATDataGridViewTextBoxColumn.HeaderText = "Equiv."
-        Me.VATDataGridViewTextBoxColumn.Name = "VATDataGridViewTextBoxColumn"
-        Me.VATDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'AmountDataGridViewTextBoxColumn
-        '
-        Me.AmountDataGridViewTextBoxColumn.DataPropertyName = "Amount"
-        Me.AmountDataGridViewTextBoxColumn.HeaderText = "Amount"
-        Me.AmountDataGridViewTextBoxColumn.Name = "AmountDataGridViewTextBoxColumn"
-        Me.AmountDataGridViewTextBoxColumn.ReadOnly = True
-        Me.AmountDataGridViewTextBoxColumn.Visible = False
-        '
-        'DebitCreditDataGridViewTextBoxColumn
-        '
-        Me.DebitCreditDataGridViewTextBoxColumn.DataPropertyName = "DebitCredit"
-        Me.DebitCreditDataGridViewTextBoxColumn.HeaderText = "DebitCredit"
-        Me.DebitCreditDataGridViewTextBoxColumn.Name = "DebitCreditDataGridViewTextBoxColumn"
-        Me.DebitCreditDataGridViewTextBoxColumn.ReadOnly = True
-        Me.DebitCreditDataGridViewTextBoxColumn.Visible = False
-        '
-        'TimeKeyDataGridViewTextBoxColumn
-        '
-        Me.TimeKeyDataGridViewTextBoxColumn.DataPropertyName = "TimeKey"
-        DataGridViewCellStyle12.Format = "T"
-        DataGridViewCellStyle12.NullValue = Nothing
-        Me.TimeKeyDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle12
-        Me.TimeKeyDataGridViewTextBoxColumn.HeaderText = "TimeKey"
-        Me.TimeKeyDataGridViewTextBoxColumn.Name = "TimeKeyDataGridViewTextBoxColumn"
-        Me.TimeKeyDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'AccountNoDataGridViewTextBoxColumn1
-        '
-        Me.AccountNoDataGridViewTextBoxColumn1.DataPropertyName = "AccountNo"
-        Me.AccountNoDataGridViewTextBoxColumn1.HeaderText = "AccountNo"
-        Me.AccountNoDataGridViewTextBoxColumn1.Name = "AccountNoDataGridViewTextBoxColumn1"
-        Me.AccountNoDataGridViewTextBoxColumn1.ReadOnly = True
-        '
-        'TransferDataGridViewTextBoxColumn
-        '
-        Me.TransferDataGridViewTextBoxColumn.DataPropertyName = "Transfer"
-        Me.TransferDataGridViewTextBoxColumn.HeaderText = "Transfer"
-        Me.TransferDataGridViewTextBoxColumn.Name = "TransferDataGridViewTextBoxColumn"
-        Me.TransferDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'TransferIDDataGridViewTextBoxColumn
-        '
-        Me.TransferIDDataGridViewTextBoxColumn.DataPropertyName = "TransferID"
-        Me.TransferIDDataGridViewTextBoxColumn.HeaderText = "TransferID"
-        Me.TransferIDDataGridViewTextBoxColumn.Name = "TransferIDDataGridViewTextBoxColumn"
-        Me.TransferIDDataGridViewTextBoxColumn.ReadOnly = True
         '
         'frmPbsTrans
         '
