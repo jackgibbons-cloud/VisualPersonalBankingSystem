@@ -107,8 +107,9 @@ Public Class frmPbsTrans
         If gsDBName = "Live" Then
 
             gsVpbsConnection = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\VPBS\VPBS.MDB"
-            gsVpbsConnection2 = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\USERS\JACK\DEVELOP\VPBS13\bin\Release\VPBS.MDB" 'added 3/12/17 for file import
-            gsVpbsConnection3 = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\USERS\JACK\DEVELOP\VPBS13\VPBS.MDB" 'added 13/12/17 for file import
+            'gsVpbsConnection2 & gsVpbsConnection3 no longer required but referenced in DoSql2 & 3 jpg 25/08/20
+            gsVpbsConnection2 = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\VPBS\VPBS.MDB" 'C:\USERS\JACK\DEVELOP\VPBS13\bin\Release\VPBS.MDB" 'added 3/12/17 for file import
+            gsVpbsConnection3 = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\VPBS\VPBS.MDB" 'C:\USERS\JACK\DEVELOP\VPBS13\VPBS.MDB" 'added 13/12/17 for file import
 
             'TODO: This line of code loads data into the 'VPBSDataSet.dirpbs' table. You can move, or remove it, as needed.
             Me.DirpbsTableAdapterLive.Fill(Me.VPBSDataSet.dirpbs)
