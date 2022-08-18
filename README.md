@@ -12,5 +12,5 @@ Comprehensive Budgeting enables you to track income against expenditure, across 
 
 Standing orders and direct debits/credits are processed automatically for any frequency (including daily, weekly, lunar monthly, in addition to monthly, quarterly, six monthly and annually) and for a set number of payments. Coupled with forward projections, easy bank reconciliation with full summary, search and flexible enquiry facilities with comprehensive analysis, the PBS puts you firmly in control of your money.
 
-Here we have the Visual Personal Banking System for Windows 10, written with Visual Basic 2019, .NetFrameWork v4.0, MS Access 2, Crystal Reports 5.0 (which likes the databases and Crystal.rpt formats in the local C:\VPBS folder!). New for this version is Automatic Bank Reconciliation. Makes the task of reconciling your Bank Statement s doddle.
+Here we have the Visual Personal Banking System for Windows 10, written with Visual Basic 2019, .NetFrameWork v4.0, MS Access 2, Crystal Reports 5.0 (which likes the databases and Crystal.rpt formats in the local C:\VPBS folder!). New for this version is Automatic Bank Reconciliation. Makes the task of reconciling your Bank Statement a doddle.
 
